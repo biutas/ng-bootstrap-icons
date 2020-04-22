@@ -5,11 +5,11 @@ import { uppercamelcase } from './utils';
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'i-feather, feather-icon',
-  templateUrl: './feather.component.html',
-  styleUrls: [ './feather.component.scss' ],
+  selector: 'bt-icon, bootstrap-icon',
+  templateUrl: './ng-bootstrap-icons.component.html',
+  styleUrls: [ './ng-bootstrap-icons.component.scss' ],
 })
-export class FeatherComponent implements OnChanges {
+export class BoostrapIcons implements OnChanges {
   @Input() name!: string;
 
   constructor(
@@ -26,7 +26,7 @@ export class FeatherComponent implements OnChanges {
     if (!svg) {
       console.warn(
         `Icon not found: ${changes.name.currentValue}\n` +
-        `Refer to documentation on https://github.com/michaelbazos/angular-feather`
+        `Refer to documentation on https://github.com/biutas/ng-bootstrap-icons/issues`
       );
     }
 
