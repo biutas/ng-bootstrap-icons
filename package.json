@@ -1,15 +1,15 @@
 {
-  "name": "angular-feather",
-  "version": "6.0.8",
-  "description": "Feather Icons components library for your Angular Applications",
+  "name": "ng-bootstrap-icons",
+  "version": "1.0.0",
+  "description": "Bootstrap Icons components library for your Angular Applications",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaelbazos/angular-feather.git"
+    "url": "git+https://github.com/biutas/ng-bootstrap-icons.git"
   },
   "keywords": [
     "angular2",
     "angular",
-    "feather",
+    "bootstrap",
     "icons",
     "svg",
     "2",
@@ -17,12 +17,12 @@
     "components",
     "library"
   ],
-  "author": "Michael Bazos",
+  "author": "Gabriel Lopes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michaelbazos/angular-feather/issues"
+    "url": "https://github.com/biutas/ng-bootstrap-icons/issues"
   },
-  "homepage": "https://github.com/michaelbazos/angular-feather#readme",
+  "homepage": "https://github.com/biutas/ng-bootstrap-icons#readme",
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
@@ -44,6 +44,6 @@
     "zone.js": "~0.9.1"
   },
   "dependencies": {
-    "feather-icons": "4.24.1"
+    "bootstrap-icons": "^1.0.0-alpha3"
   }
 }
