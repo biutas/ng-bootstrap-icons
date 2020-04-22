@@ -5,7 +5,7 @@ import { uppercamelcase } from './utils';
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'bt-icon, bootstrap-icon',
+  selector: 'bt-icon, bootstrap-icon, bi',
   templateUrl: './ng-bootstrap-icons.component.html',
   styleUrls: [ './ng-bootstrap-icons.component.scss' ],
 })
