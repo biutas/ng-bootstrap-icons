@@ -1,23 +1,23 @@
 import { NgModule, ModuleWithProviders, Optional } from '@angular/core';
-import { BoostrapIcons } from './ng-bootstrap-icons.component';
+import { BootstrapIcons } from './ng-bootstrap-icons.component';
 import { Icons } from './icons.provider';
 
 
 @NgModule({
   declarations: [
-    BoostrapIcons
+    BootstrapIcons
   ],
   exports: [
-    BoostrapIcons
+    BootstrapIcons
   ]
 })
-export class BoostrapIconsModule {
+export class BootstrapIconsModule {
   constructor(
     @Optional() private icons: Icons
   ) {
     if ( !this.icons ) {
       throw new Error(
-        `No icon provided. Make sure to use 'BoostrapIconsModule.pick({ ... })' when importing the module\n` +
+        `No icon provided. Make sure to use 'BootstrapIconsModule.pick({ ... })' when importing the module\n` +
         `Refer to documentation on https://github.com/biutas/ng-bootstrap-icons/issues`
       );
     }
@@ -25,7 +25,7 @@ export class BoostrapIconsModule {
 
   static pick(icons: {[key: string]: string}): ModuleWithProviders {
     return {
-      ngModule: BoostrapIconsModule,
+      ngModule: BootstrapIconsModule,
       providers: [
         { provide: Icons, multi: true, useValue: icons }
       ]

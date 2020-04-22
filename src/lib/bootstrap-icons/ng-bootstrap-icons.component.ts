@@ -9,7 +9,7 @@ import { uppercamelcase } from './utils';
   templateUrl: './ng-bootstrap-icons.component.html',
   styleUrls: [ './ng-bootstrap-icons.component.scss' ],
 })
-export class BoostrapIcons implements OnChanges {
+export class BootstrapIcons implements OnChanges {
   @Input() name!: string;
 
   constructor(

@@ -4,6 +4,6 @@
     "entryFile": "src/lib/index.ts"
   },
   "whitelistedNonPeerDependencies": [
-    "feather-icons"
+    "bootstrap-icons"
   ]
 }
