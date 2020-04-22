@@ -1,1 +1,1 @@
-export { FeatherModule } from './feather/ng-bootstrap-icons.module';
+export { BoostrapIconsModule } from './bootstrap-icons/ng-bootstrap-icons.module';
