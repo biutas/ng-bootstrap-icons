@@ -3,7 +3,10 @@
   width: 24px;
   height: 24px;
   fill: none;
-  stroke-width: 2px;
   stroke-linecap: round;
   stroke-linejoin: round;
+  svg{
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
