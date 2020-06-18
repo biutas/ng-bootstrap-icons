@@ -15,22 +15,54 @@ import { ArrowBarRight } from './svg/arrow-bar-right';
 import { ArrowBarUp } from './svg/arrow-bar-up';
 import { ArrowClockwise } from './svg/arrow-clockwise';
 import { ArrowCounterclockwise } from './svg/arrow-counterclockwise';
+import { ArrowDownCircleFill } from './svg/arrow-down-circle-fill';
+import { ArrowDownCircle } from './svg/arrow-down-circle';
+import { ArrowDownLeftCircleFill } from './svg/arrow-down-left-circle-fill';
+import { ArrowDownLeftCircle } from './svg/arrow-down-left-circle';
+import { ArrowDownLeftSquareFill } from './svg/arrow-down-left-square-fill';
+import { ArrowDownLeftSquare } from './svg/arrow-down-left-square';
 import { ArrowDownLeft } from './svg/arrow-down-left';
+import { ArrowDownRightCircleFill } from './svg/arrow-down-right-circle-fill';
+import { ArrowDownRightCircle } from './svg/arrow-down-right-circle';
+import { ArrowDownRightSquareFill } from './svg/arrow-down-right-square-fill';
+import { ArrowDownRightSquare } from './svg/arrow-down-right-square';
 import { ArrowDownRight } from './svg/arrow-down-right';
 import { ArrowDownShort } from './svg/arrow-down-short';
+import { ArrowDownSquareFill } from './svg/arrow-down-square-fill';
+import { ArrowDownSquare } from './svg/arrow-down-square';
+import { ArrowDownUp } from './svg/arrow-down-up';
 import { ArrowDown } from './svg/arrow-down';
+import { ArrowLeftCircleFill } from './svg/arrow-left-circle-fill';
+import { ArrowLeftCircle } from './svg/arrow-left-circle';
 import { ArrowLeftRight } from './svg/arrow-left-right';
 import { ArrowLeftShort } from './svg/arrow-left-short';
+import { ArrowLeftSquareFill } from './svg/arrow-left-square-fill';
+import { ArrowLeftSquare } from './svg/arrow-left-square';
 import { ArrowLeft } from './svg/arrow-left';
 import { ArrowRepeat } from './svg/arrow-repeat';
 import { ArrowReturnLeft } from './svg/arrow-return-left';
 import { ArrowReturnRight } from './svg/arrow-return-right';
+import { ArrowRightCircleFill } from './svg/arrow-right-circle-fill';
+import { ArrowRightCircle } from './svg/arrow-right-circle';
 import { ArrowRightShort } from './svg/arrow-right-short';
+import { ArrowRightSquareFill } from './svg/arrow-right-square-fill';
+import { ArrowRightSquare } from './svg/arrow-right-square';
 import { ArrowRight } from './svg/arrow-right';
-import { ArrowUpDown } from './svg/arrow-up-down';
+import { ArrowUpCircleFill } from './svg/arrow-up-circle-fill';
+import { ArrowUpCircle } from './svg/arrow-up-circle';
+import { ArrowUpLeftCircleFill } from './svg/arrow-up-left-circle-fill';
+import { ArrowUpLeftCircle } from './svg/arrow-up-left-circle';
+import { ArrowUpLeftSquareFill } from './svg/arrow-up-left-square-fill';
+import { ArrowUpLeftSquare } from './svg/arrow-up-left-square';
 import { ArrowUpLeft } from './svg/arrow-up-left';
+import { ArrowUpRightCircleFill } from './svg/arrow-up-right-circle-fill';
+import { ArrowUpRightCircle } from './svg/arrow-up-right-circle';
+import { ArrowUpRightSquareFill } from './svg/arrow-up-right-square-fill';
+import { ArrowUpRightSquare } from './svg/arrow-up-right-square';
 import { ArrowUpRight } from './svg/arrow-up-right';
 import { ArrowUpShort } from './svg/arrow-up-short';
+import { ArrowUpSquareFill } from './svg/arrow-up-square-fill';
+import { ArrowUpSquare } from './svg/arrow-up-square';
 import { ArrowUp } from './svg/arrow-up';
 import { ArrowsAngleContract } from './svg/arrows-angle-contract';
 import { ArrowsAngleExpand } from './svg/arrows-angle-expand';
@@ -40,6 +72,7 @@ import { ArrowsFullscreen } from './svg/arrows-fullscreen';
 import { ArrowsMove } from './svg/arrows-move';
 import { AspectRatioFill } from './svg/aspect-ratio-fill';
 import { AspectRatio } from './svg/aspect-ratio';
+import { Asterisk } from './svg/asterisk';
 import { At } from './svg/at';
 import { AwardFill } from './svg/award-fill';
 import { Award } from './svg/award';
@@ -47,10 +80,19 @@ import { BackspaceFill } from './svg/backspace-fill';
 import { BackspaceReverseFill } from './svg/backspace-reverse-fill';
 import { BackspaceReverse } from './svg/backspace-reverse';
 import { Backspace } from './svg/backspace';
+import { BagCheck } from './svg/bag-check';
+import { BagDash } from './svg/bag-dash';
 import { BagFill } from './svg/bag-fill';
+import { BagPlus } from './svg/bag-plus';
 import { Bag } from './svg/bag';
 import { BarChartFill } from './svg/bar-chart-fill';
 import { BarChart } from './svg/bar-chart';
+import { BasketFill } from './svg/basket-fill';
+import { Basket } from './svg/basket';
+import { Basket2Fill } from './svg/basket2-fill';
+import { Basket2 } from './svg/basket2';
+import { Basket3Fill } from './svg/basket3-fill';
+import { Basket3 } from './svg/basket3';
 import { BatteryCharging } from './svg/battery-charging';
 import { BatteryFull } from './svg/battery-full';
 import { BatteryHalf } from './svg/battery-half';
@@ -89,6 +131,8 @@ import { BoxArrowRight } from './svg/box-arrow-right';
 import { BoxArrowUpLeft } from './svg/box-arrow-up-left';
 import { BoxArrowUpRight } from './svg/box-arrow-up-right';
 import { BoxArrowUp } from './svg/box-arrow-up';
+import { BoxSeam } from './svg/box-seam';
+import { Box } from './svg/box';
 import { Braces } from './svg/braces';
 import { BriefcaseFill } from './svg/briefcase-fill';
 import { Briefcase } from './svg/briefcase';
@@ -105,9 +149,40 @@ import { BucketFill } from './svg/bucket-fill';
 import { Bucket } from './svg/bucket';
 import { Building } from './svg/building';
 import { Bullseye } from './svg/bullseye';
+import { CalendarCheckFill } from './svg/calendar-check-fill';
+import { CalendarCheck } from './svg/calendar-check';
+import { CalendarDateFill } from './svg/calendar-date-fill';
+import { CalendarDate } from './svg/calendar-date';
+import { CalendarDayFill } from './svg/calendar-day-fill';
+import { CalendarDay } from './svg/calendar-day';
 import { CalendarFill } from './svg/calendar-fill';
+import { CalendarMinusFill } from './svg/calendar-minus-fill';
+import { CalendarMinus } from './svg/calendar-minus';
+import { CalendarMonthFill } from './svg/calendar-month-fill';
+import { CalendarMonth } from './svg/calendar-month';
+import { CalendarPlusFill } from './svg/calendar-plus-fill';
+import { CalendarPlus } from './svg/calendar-plus';
 import { Calendar } from './svg/calendar';
+import { Calendar2CheckFill } from './svg/calendar2-check-fill';
+import { Calendar2Check } from './svg/calendar2-check';
+import { Calendar2DateFill } from './svg/calendar2-date-fill';
+import { Calendar2Date } from './svg/calendar2-date';
+import { Calendar2DayFill } from './svg/calendar2-day-fill';
+import { Calendar2Day } from './svg/calendar2-day';
+import { Calendar2Fill } from './svg/calendar2-fill';
+import { Calendar2MinusFill } from './svg/calendar2-minus-fill';
+import { Calendar2Minus } from './svg/calendar2-minus';
+import { Calendar2MonthFill } from './svg/calendar2-month-fill';
+import { Calendar2Month } from './svg/calendar2-month';
+import { Calendar2PlusFill } from './svg/calendar2-plus-fill';
+import { Calendar2Plus } from './svg/calendar2-plus';
+import { Calendar2 } from './svg/calendar2';
+import { Calendar3Fill } from './svg/calendar3-fill';
+import { Calendar3 } from './svg/calendar3';
+import { Calendar4 } from './svg/calendar4';
 import { CameraVideoFill } from './svg/camera-video-fill';
+import { CameraVideoOffFill } from './svg/camera-video-off-fill';
+import { CameraVideoOff } from './svg/camera-video-off';
 import { CameraVideo } from './svg/camera-video';
 import { Camera } from './svg/camera';
 import { CapslockFill } from './svg/capslock-fill';
@@ -118,13 +193,29 @@ import { CardImage } from './svg/card-image';
 import { CardList } from './svg/card-list';
 import { CardText } from './svg/card-text';
 import { CaretDownFill } from './svg/caret-down-fill';
+import { CaretDownSquareFill } from './svg/caret-down-square-fill';
+import { CaretDownSquare } from './svg/caret-down-square';
 import { CaretDown } from './svg/caret-down';
 import { CaretLeftFill } from './svg/caret-left-fill';
+import { CaretLeftSquareFill } from './svg/caret-left-square-fill';
+import { CaretLeftSquare } from './svg/caret-left-square';
 import { CaretLeft } from './svg/caret-left';
 import { CaretRightFill } from './svg/caret-right-fill';
+import { CaretRightSquareFill } from './svg/caret-right-square-fill';
+import { CaretRightSquare } from './svg/caret-right-square';
 import { CaretRight } from './svg/caret-right';
 import { CaretUpFill } from './svg/caret-up-fill';
+import { CaretUpSquareFill } from './svg/caret-up-square-fill';
+import { CaretUpSquare } from './svg/caret-up-square';
 import { CaretUp } from './svg/caret-up';
+import { CartCheck } from './svg/cart-check';
+import { CartDash } from './svg/cart-dash';
+import { CartFill } from './svg/cart-fill';
+import { CartPlus } from './svg/cart-plus';
+import { Cart } from './svg/cart';
+import { Cart2 } from './svg/cart2';
+import { Cart3 } from './svg/cart3';
+import { Cart4 } from './svg/cart4';
 import { ChatDotsFill } from './svg/chat-dots-fill';
 import { ChatDots } from './svg/chat-dots';
 import { ChatFill } from './svg/chat-fill';
@@ -138,9 +229,15 @@ import { ChatSquareQuote } from './svg/chat-square-quote';
 import { ChatSquare } from './svg/chat-square';
 import { Chat } from './svg/chat';
 import { CheckAll } from './svg/check-all';
-import { CheckBox } from './svg/check-box';
+import { CheckCircleFill } from './svg/check-circle-fill';
 import { CheckCircle } from './svg/check-circle';
+import { CheckSquareFill } from './svg/check-square-fill';
+import { CheckSquare } from './svg/check-square';
 import { Check } from './svg/check';
+import { Check2All } from './svg/check2-all';
+import { Check2Circle } from './svg/check2-circle';
+import { Check2Square } from './svg/check2-square';
+import { Check2 } from './svg/check2';
 import { ChevronBarContract } from './svg/chevron-bar-contract';
 import { ChevronBarDown } from './svg/chevron-bar-down';
 import { ChevronBarExpand } from './svg/chevron-bar-expand';
@@ -172,6 +269,8 @@ import { ClockHistory } from './svg/clock-history';
 import { Clock } from './svg/clock';
 import { CloudDownload } from './svg/cloud-download';
 import { CloudFill } from './svg/cloud-fill';
+import { CloudSlashFill } from './svg/cloud-slash-fill';
+import { CloudSlash } from './svg/cloud-slash';
 import { CloudUpload } from './svg/cloud-upload';
 import { Cloud } from './svg/cloud';
 import { CodeSlash } from './svg/code-slash';
@@ -189,6 +288,7 @@ import { Cone } from './svg/cone';
 import { Controller } from './svg/controller';
 import { CreditCard } from './svg/credit-card';
 import { Crop } from './svg/crop';
+import { Cup } from './svg/cup';
 import { CursorFill } from './svg/cursor-fill';
 import { CursorText } from './svg/cursor-text';
 import { Cursor } from './svg/cursor';
@@ -202,6 +302,8 @@ import { DiamondHalf } from './svg/diamond-half';
 import { Diamond } from './svg/diamond';
 import { DisplayFill } from './svg/display-fill';
 import { Display } from './svg/display';
+import { DoorClosedFill } from './svg/door-closed-fill';
+import { DoorClosed } from './svg/door-closed';
 import { Dot } from './svg/dot';
 import { Download } from './svg/download';
 import { DropletFill } from './svg/droplet-fill';
@@ -212,6 +314,14 @@ import { EggFried } from './svg/egg-fried';
 import { Egg } from './svg/egg';
 import { EjectFill } from './svg/eject-fill';
 import { Eject } from './svg/eject';
+import { EmojiAngry } from './svg/emoji-angry';
+import { EmojiDizzy } from './svg/emoji-dizzy';
+import { EmojiFrown } from './svg/emoji-frown';
+import { EmojiLaughing } from './svg/emoji-laughing';
+import { EmojiNeutral } from './svg/emoji-neutral';
+import { EmojiSmileUpsideDown } from './svg/emoji-smile-upside-down';
+import { EmojiSmile } from './svg/emoji-smile';
+import { EmojiSunglasses } from './svg/emoji-sunglasses';
 import { EnvelopeFill } from './svg/envelope-fill';
 import { EnvelopeOpenFill } from './svg/envelope-open-fill';
 import { EnvelopeOpen } from './svg/envelope-open';
@@ -303,11 +413,23 @@ import { Grid3x3Gap } from './svg/grid-3x3-gap';
 import { Grid3x3 } from './svg/grid-3x3';
 import { GridFill } from './svg/grid-fill';
 import { Grid } from './svg/grid';
+import { GripHorizontal } from './svg/grip-horizontal';
+import { GripVertical } from './svg/grip-vertical';
 import { Hammer } from './svg/hammer';
+import { HandIndexThumb } from './svg/hand-index-thumb';
+import { HandIndex } from './svg/hand-index';
+import { HandThumbsDown } from './svg/hand-thumbs-down';
+import { HandThumbsUp } from './svg/hand-thumbs-up';
+import { HandbagFill } from './svg/handbag-fill';
+import { Handbag } from './svg/handbag';
 import { Hash } from './svg/hash';
+import { Headphones } from './svg/headphones';
 import { HeartFill } from './svg/heart-fill';
 import { HeartHalf } from './svg/heart-half';
 import { Heart } from './svg/heart';
+import { HexagonFill } from './svg/hexagon-fill';
+import { HexagonHalf } from './svg/hexagon-half';
+import { Hexagon } from './svg/hexagon';
 import { HouseDoorFill } from './svg/house-door-fill';
 import { HouseDoor } from './svg/house-door';
 import { HouseFill } from './svg/house-fill';
@@ -365,6 +487,8 @@ import { MicFill } from './svg/mic-fill';
 import { MicMuteFill } from './svg/mic-mute-fill';
 import { MicMute } from './svg/mic-mute';
 import { Mic } from './svg/mic';
+import { MinecartLoaded } from './svg/minecart-loaded';
+import { Minecart } from './svg/minecart';
 import { Moon } from './svg/moon';
 import { MusicNoteBeamed } from './svg/music-note-beamed';
 import { MusicNoteList } from './svg/music-note-list';
@@ -386,12 +510,12 @@ import { Pencil } from './svg/pencil';
 import { PentagonFill } from './svg/pentagon-fill';
 import { PentagonHalf } from './svg/pentagon-half';
 import { Pentagon } from './svg/pentagon';
-import { PeopleCircle } from './svg/people-circle';
 import { PeopleFill } from './svg/people-fill';
 import { People } from './svg/people';
 import { PersonBoundingBox } from './svg/person-bounding-box';
 import { PersonCheckFill } from './svg/person-check-fill';
 import { PersonCheck } from './svg/person-check';
+import { PersonCircle } from './svg/person-circle';
 import { PersonDashFill } from './svg/person-dash-fill';
 import { PersonDash } from './svg/person-dash';
 import { PersonFill } from './svg/person-fill';
@@ -426,6 +550,8 @@ import { QuestionOctagon } from './svg/question-octagon';
 import { QuestionSquareFill } from './svg/question-square-fill';
 import { QuestionSquare } from './svg/question-square';
 import { Question } from './svg/question';
+import { ReceiptCutoff } from './svg/receipt-cutoff';
+import { Receipt } from './svg/receipt';
 import { ReplyAllFill } from './svg/reply-all-fill';
 import { ReplyAll } from './svg/reply-all';
 import { ReplyFill } from './svg/reply-fill';
@@ -437,9 +563,13 @@ import { ShieldFill } from './svg/shield-fill';
 import { ShieldLockFill } from './svg/shield-lock-fill';
 import { ShieldLock } from './svg/shield-lock';
 import { ShieldShaded } from './svg/shield-shaded';
+import { ShieldSlashFill } from './svg/shield-slash-fill';
+import { ShieldSlash } from './svg/shield-slash';
 import { Shield } from './svg/shield';
 import { ShiftFill } from './svg/shift-fill';
 import { Shift } from './svg/shift';
+import { ShopWindow } from './svg/shop-window';
+import { Shop } from './svg/shop';
 import { Shuffle } from './svg/shuffle';
 import { SkipBackwardFill } from './svg/skip-backward-fill';
 import { SkipBackward } from './svg/skip-backward';
@@ -497,6 +627,8 @@ import { TriangleFill } from './svg/triangle-fill';
 import { TriangleHalf } from './svg/triangle-half';
 import { Triangle } from './svg/triangle';
 import { Trophy } from './svg/trophy';
+import { TruckFlatbed } from './svg/truck-flatbed';
+import { Truck } from './svg/truck';
 import { TvFill } from './svg/tv-fill';
 import { Tv } from './svg/tv';
 import { TypeBold } from './svg/type-bold';
@@ -510,6 +642,8 @@ import { Type } from './svg/type';
 import { Union } from './svg/union';
 import { UnlockFill } from './svg/unlock-fill';
 import { Unlock } from './svg/unlock';
+import { UpcScan } from './svg/upc-scan';
+import { Upc } from './svg/upc';
 import { Upload } from './svg/upload';
 import { ViewList } from './svg/view-list';
 import { ViewStacked } from './svg/view-stacked';
@@ -517,10 +651,13 @@ import { VolumeDownFill } from './svg/volume-down-fill';
 import { VolumeDown } from './svg/volume-down';
 import { VolumeMuteFill } from './svg/volume-mute-fill';
 import { VolumeMute } from './svg/volume-mute';
+import { VolumeOffFill } from './svg/volume-off-fill';
+import { VolumeOff } from './svg/volume-off';
 import { VolumeUpFill } from './svg/volume-up-fill';
 import { VolumeUp } from './svg/volume-up';
 import { Vr } from './svg/vr';
 import { Wallet } from './svg/wallet';
+import { Wallet2 } from './svg/wallet2';
 import { Watch } from './svg/watch';
 import { Wifi } from './svg/wifi';
 import { Window } from './svg/window';
@@ -553,22 +690,54 @@ export const allIcons = {
   ArrowBarUp,
   ArrowClockwise,
   ArrowCounterclockwise,
+  ArrowDownCircleFill,
+  ArrowDownCircle,
+  ArrowDownLeftCircleFill,
+  ArrowDownLeftCircle,
+  ArrowDownLeftSquareFill,
+  ArrowDownLeftSquare,
   ArrowDownLeft,
+  ArrowDownRightCircleFill,
+  ArrowDownRightCircle,
+  ArrowDownRightSquareFill,
+  ArrowDownRightSquare,
   ArrowDownRight,
   ArrowDownShort,
+  ArrowDownSquareFill,
+  ArrowDownSquare,
+  ArrowDownUp,
   ArrowDown,
+  ArrowLeftCircleFill,
+  ArrowLeftCircle,
   ArrowLeftRight,
   ArrowLeftShort,
+  ArrowLeftSquareFill,
+  ArrowLeftSquare,
   ArrowLeft,
   ArrowRepeat,
   ArrowReturnLeft,
   ArrowReturnRight,
+  ArrowRightCircleFill,
+  ArrowRightCircle,
   ArrowRightShort,
+  ArrowRightSquareFill,
+  ArrowRightSquare,
   ArrowRight,
-  ArrowUpDown,
+  ArrowUpCircleFill,
+  ArrowUpCircle,
+  ArrowUpLeftCircleFill,
+  ArrowUpLeftCircle,
+  ArrowUpLeftSquareFill,
+  ArrowUpLeftSquare,
   ArrowUpLeft,
+  ArrowUpRightCircleFill,
+  ArrowUpRightCircle,
+  ArrowUpRightSquareFill,
+  ArrowUpRightSquare,
   ArrowUpRight,
   ArrowUpShort,
+  ArrowUpSquareFill,
+  ArrowUpSquare,
   ArrowUp,
   ArrowsAngleContract,
   ArrowsAngleExpand,
@@ -578,6 +747,7 @@ export const allIcons = {
   ArrowsMove,
   AspectRatioFill,
   AspectRatio,
+  Asterisk,
   At,
   AwardFill,
   Award,
@@ -585,10 +755,19 @@ export const allIcons = {
   BackspaceReverseFill,
   BackspaceReverse,
   Backspace,
+  BagCheck,
+  BagDash,
   BagFill,
+  BagPlus,
   Bag,
   BarChartFill,
   BarChart,
+  BasketFill,
+  Basket,
+  Basket2Fill,
+  Basket2,
+  Basket3Fill,
+  Basket3,
   BatteryCharging,
   BatteryFull,
   BatteryHalf,
@@ -627,6 +806,8 @@ export const allIcons = {
   BoxArrowUpLeft,
   BoxArrowUpRight,
   BoxArrowUp,
+  BoxSeam,
+  Box,
   Braces,
   BriefcaseFill,
   Briefcase,
@@ -643,9 +824,40 @@ export const allIcons = {
   Bucket,
   Building,
   Bullseye,
+  CalendarCheckFill,
+  CalendarCheck,
+  CalendarDateFill,
+  CalendarDate,
+  CalendarDayFill,
+  CalendarDay,
   CalendarFill,
+  CalendarMinusFill,
+  CalendarMinus,
+  CalendarMonthFill,
+  CalendarMonth,
+  CalendarPlusFill,
+  CalendarPlus,
   Calendar,
+  Calendar2CheckFill,
+  Calendar2Check,
+  Calendar2DateFill,
+  Calendar2Date,
+  Calendar2DayFill,
+  Calendar2Day,
+  Calendar2Fill,
+  Calendar2MinusFill,
+  Calendar2Minus,
+  Calendar2MonthFill,
+  Calendar2Month,
+  Calendar2PlusFill,
+  Calendar2Plus,
+  Calendar2,
+  Calendar3Fill,
+  Calendar3,
+  Calendar4,
   CameraVideoFill,
+  CameraVideoOffFill,
+  CameraVideoOff,
   CameraVideo,
   Camera,
   CapslockFill,
@@ -656,13 +868,29 @@ export const allIcons = {
   CardList,
   CardText,
   CaretDownFill,
+  CaretDownSquareFill,
+  CaretDownSquare,
   CaretDown,
   CaretLeftFill,
+  CaretLeftSquareFill,
+  CaretLeftSquare,
   CaretLeft,
   CaretRightFill,
+  CaretRightSquareFill,
+  CaretRightSquare,
   CaretRight,
   CaretUpFill,
+  CaretUpSquareFill,
+  CaretUpSquare,
   CaretUp,
+  CartCheck,
+  CartDash,
+  CartFill,
+  CartPlus,
+  Cart,
+  Cart2,
+  Cart3,
+  Cart4,
   ChatDotsFill,
   ChatDots,
   ChatFill,
@@ -676,9 +904,15 @@ export const allIcons = {
   ChatSquare,
   Chat,
   CheckAll,
-  CheckBox,
+  CheckCircleFill,
   CheckCircle,
+  CheckSquareFill,
+  CheckSquare,
   Check,
+  Check2All,
+  Check2Circle,
+  Check2Square,
+  Check2,
   ChevronBarContract,
   ChevronBarDown,
   ChevronBarExpand,
@@ -710,6 +944,8 @@ export const allIcons = {
   Clock,
   CloudDownload,
   CloudFill,
+  CloudSlashFill,
+  CloudSlash,
   CloudUpload,
   Cloud,
   CodeSlash,
@@ -727,6 +963,7 @@ export const allIcons = {
   Controller,
   CreditCard,
   Crop,
+  Cup,
   CursorFill,
   CursorText,
   Cursor,
@@ -740,6 +977,8 @@ export const allIcons = {
   Diamond,
   DisplayFill,
   Display,
+  DoorClosedFill,
+  DoorClosed,
   Dot,
   Download,
   DropletFill,
@@ -750,6 +989,14 @@ export const allIcons = {
   Egg,
   EjectFill,
   Eject,
+  EmojiAngry,
+  EmojiDizzy,
+  EmojiFrown,
+  EmojiLaughing,
+  EmojiNeutral,
+  EmojiSmileUpsideDown,
+  EmojiSmile,
+  EmojiSunglasses,
   EnvelopeFill,
   EnvelopeOpenFill,
   EnvelopeOpen,
@@ -841,11 +1088,23 @@ export const allIcons = {
   Grid3x3,
   GridFill,
   Grid,
+  GripHorizontal,
+  GripVertical,
   Hammer,
+  HandIndexThumb,
+  HandIndex,
+  HandThumbsDown,
+  HandThumbsUp,
+  HandbagFill,
+  Handbag,
   Hash,
+  Headphones,
   HeartFill,
   HeartHalf,
   Heart,
+  HexagonFill,
+  HexagonHalf,
+  Hexagon,
   HouseDoorFill,
   HouseDoor,
   HouseFill,
@@ -903,6 +1162,8 @@ export const allIcons = {
   MicMuteFill,
   MicMute,
   Mic,
+  MinecartLoaded,
+  Minecart,
   Moon,
   MusicNoteBeamed,
   MusicNoteList,
@@ -924,12 +1185,12 @@ export const allIcons = {
   PentagonFill,
   PentagonHalf,
   Pentagon,
-  PeopleCircle,
   PeopleFill,
   People,
   PersonBoundingBox,
   PersonCheckFill,
   PersonCheck,
+  PersonCircle,
   PersonDashFill,
   PersonDash,
   PersonFill,
@@ -964,6 +1225,8 @@ export const allIcons = {
   QuestionSquareFill,
   QuestionSquare,
   Question,
+  ReceiptCutoff,
+  Receipt,
   ReplyAllFill,
   ReplyAll,
   ReplyFill,
@@ -975,9 +1238,13 @@ export const allIcons = {
   ShieldLockFill,
   ShieldLock,
   ShieldShaded,
+  ShieldSlashFill,
+  ShieldSlash,
   Shield,
   ShiftFill,
   Shift,
+  ShopWindow,
+  Shop,
   Shuffle,
   SkipBackwardFill,
   SkipBackward,
@@ -1035,6 +1302,8 @@ export const allIcons = {
   TriangleHalf,
   Triangle,
   Trophy,
+  TruckFlatbed,
+  Truck,
   TvFill,
   Tv,
   TypeBold,
@@ -1048,6 +1317,8 @@ export const allIcons = {
   Union,
   UnlockFill,
   Unlock,
+  UpcScan,
+  Upc,
   Upload,
   ViewList,
   ViewStacked,
@@ -1055,10 +1326,13 @@ export const allIcons = {
   VolumeDown,
   VolumeMuteFill,
   VolumeMute,
+  VolumeOffFill,
+  VolumeOff,
   VolumeUpFill,
   VolumeUp,
   Vr,
   Wallet,
+  Wallet2,
   Watch,
   Wifi,
   Window,
