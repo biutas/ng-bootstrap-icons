@@ -24,17 +24,17 @@
   },
   "homepage": "https://github.com/biutas/ng-bootstrap-icons#readme",
   "engines": {
-    "node": ">= 6.9.0",
-    "npm": ">= 3.0.0"
+    "node": ">= 12",
+    "npm": ">= 6"
   },
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
     "publish": "npm publish dist"
   },
   "devDependencies": {
-    "@angular/compiler": "^8.2.14",
-    "@angular/compiler-cli": "^8.2.14",
-    "@angular/core": "^8.2.14",
+    "@angular/compiler": "^11.2.3",
+    "@angular/compiler-cli": "^11.2.3",
+    "@angular/core": "^11.2.3",
     "del": "^5.1.0",
     "fs-extra": "^8.1.0",
     "ng-packagr": "^5.7.1",
@@ -44,6 +44,6 @@
     "zone.js": "~0.9.1"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.0.0-alpha5"
+    "bootstrap-icons": "^1.4.0"
   }
 }
