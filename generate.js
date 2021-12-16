@@ -1,65 +1,70 @@
-const del = require('del');
-const fs = require('fs-extra');
-const uppercamelcase = require('uppercamelcase');
+const del = require("del");
+const fs = require("fs-extra");
+const uppercamelcase = require("uppercamelcase");
 
-const iconsSrcFolder = 'node_modules/bootstrap-icons/icons';
+const iconsSrcFolder = "node_modules/bootstrap-icons/icons";
 
-const iconsDestFolder = 'icons/svg';
-const indexFile = 'icons/index.ts';
-const allFile = 'icons/all.ts';
+const iconsDestFolder = "icons/svg";
+const indexFile = "icons/index.ts";
+const allFile = "icons/all.ts";
 
 let exportAllString = `\nexport const allIcons = {\n`;
 
-const componentTemplate = fs.readFileSync('src/templates/component.ts.tpl', 'utf-8');
+const componentTemplate = fs.readFileSync(
+  "src/templates/component.ts.tpl",
+  "utf-8"
+);
 
-return Promise.resolve()
-  // delete feather folder and index
-  .then(() => del([iconsDestFolder, indexFile, allFile]))
-  // create destination folder
-  .then(() => fs.mkdirSync(iconsDestFolder))
-  .then(() => {
-    fs.readdirSync(`${iconsSrcFolder}`).forEach(filename => {
-      'use strict';
-      const iconName = stripExtension(filename);
-      const exportName = uppercamelcase(iconName);
-      // console.log(filename);
-      
-      const markup = fs.readFileSync(`${iconsSrcFolder}/${filename}`);      
-      const payload = String(markup).match(/^<svg[^>]+?>[^]*<\/svg>$/);
-      let output = componentTemplate
-        .replace(/__EXPORT_NAME__/g, exportName)
-        .replace(/__PAYLOAD__/, payload);
+return (
+  Promise.resolve()
+    // delete feather folder and index
+    .then(() => del([iconsDestFolder, indexFile, allFile]))
+    // create destination folder
+    .then(() => fs.mkdirSync(iconsDestFolder))
+    .then(() => {
+      fs.readdirSync(`${iconsSrcFolder}`).forEach((filename) => {
+        "use strict";
+        const iconName = stringify(stripExtension(filename));
+        const exportName = stringify(uppercamelcase(iconName));
 
-      fs.writeFileSync(`${iconsDestFolder}/${iconName}.ts`, output, 'utf-8');
+        const markup = fs.readFileSync(`${iconsSrcFolder}/${filename}`);
+        let payload = String(markup)
+          .replace(/width="[0-9]+"/, 'width="100%"')
+          .replace(/height="[0-9]+"/, 'height="100%"')
+          .match(/^<svg[^>]+?>[^]*<\/svg>$/);
 
-      fs.appendFileSync(
-        indexFile,
-        `export { ${exportName} } from './svg/${iconName}';\n`
-      );
+        let output = componentTemplate
+          .replace(/__EXPORT_NAME__/g, exportName)
+          .replace(/__PAYLOAD__/, payload);
 
-      fs.appendFileSync(
-        allFile,
-        `import { ${exportName} } from './svg/${iconName}';\n`
-      );
+        fs.writeFileSync(`${iconsDestFolder}/${iconName}.ts`, output, "utf-8");
 
-      exportAllString += `  ${exportName},\n`;
-    });
+        fs.appendFileSync(
+          indexFile,
+          `export { ${exportName} } from './svg/${iconName}';\n`
+        );
 
-    exportAllString += `};\n`;
+        fs.appendFileSync(
+          allFile,
+          `import { ${exportName} } from './svg/${iconName}';\n`
+        );
 
-    fs.appendFileSync(
-      allFile,
-      exportAllString
-    );
+        exportAllString += `  ${exportName},\n`;
+      });
 
-    fs.appendFileSync(
-      indexFile,
-      `\nexport { allIcons } from './all';\n`
-    );
-  })
-  .catch((err) => console.log(err));
+      exportAllString += `};\n`;
 
+      fs.appendFileSync(allFile, exportAllString);
+
+      fs.appendFileSync(indexFile, `\nexport { allIcons } from './all';\n`);
+    })
+    .catch((err) => console.log(err))
+);
 
 function stripExtension(str) {
-  return str.substr(0, str.lastIndexOf('.'));
+  return str.substr(0, str.lastIndexOf("."));
+}
+
+function stringify(str) {
+  return Number(str) ? `_${str}` : str;
 }

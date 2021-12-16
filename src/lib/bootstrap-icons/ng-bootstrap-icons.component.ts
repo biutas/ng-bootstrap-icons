@@ -1,13 +1,20 @@
-import { Component, ElementRef, Input, Inject, ChangeDetectorRef, OnChanges, SimpleChanges } from '@angular/core';
-import { Icons } from './icons.provider';
-import { uppercamelcase } from './utils';
-
+import {
+  Component,
+  ElementRef,
+  Input,
+  Inject,
+  ChangeDetectorRef,
+  OnChanges,
+  SimpleChanges,
+} from "@angular/core";
+import { Icons } from "./icons.provider";
+import { uppercamelcase } from "./utils";
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'bt-icon, bootstrap-icon, bi',
-  templateUrl: './ng-bootstrap-icons.component.html',
-  styleUrls: [ './ng-bootstrap-icons.component.scss' ],
+  selector: "bt-icon, bootstrap-icon, bi",
+  templateUrl: "./ng-bootstrap-icons.component.html",
+  styleUrls: ["./ng-bootstrap-icons.component.scss"],
 })
 export class BootstrapIcons implements OnChanges {
   @Input() name!: string;
@@ -21,12 +28,12 @@ export class BootstrapIcons implements OnChanges {
   ngOnChanges(changes: SimpleChanges) {
     // icons are provided as an array of objects because of "multi: true"
     const icons = Object.assign({}, ...(this.icons as any as object[]));
-    const svg = icons[ uppercamelcase(changes.name.currentValue) ] || '';
+    const svg = icons[uppercamelcase(changes.name.currentValue)] || "";
 
     if (!svg) {
       console.warn(
         `Icon not found: ${changes.name.currentValue}\n` +
-        `Refer to documentation on https://github.com/biutas/ng-bootstrap-icons/issues`
+          `Refer to documentation on https://github.com/biutas/ng-bootstrap-icons/issues`
       );
     }
 
