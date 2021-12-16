@@ -1,3 +1,5 @@
+import { _123 } from './svg/_123';
+import { Activity } from './svg/activity';
 import { AlarmFill } from './svg/alarm-fill';
 import { Alarm } from './svg/alarm';
 import { AlignBottom } from './svg/align-bottom';
@@ -9,6 +11,7 @@ import { AlignTop } from './svg/align-top';
 import { Alt } from './svg/alt';
 import { AppIndicator } from './svg/app-indicator';
 import { App } from './svg/app';
+import { Apple } from './svg/apple';
 import { ArchiveFill } from './svg/archive-fill';
 import { Archive } from './svg/archive';
 import { Arrow90degDown } from './svg/arrow-90deg-down';
@@ -119,6 +122,10 @@ import { BagPlus } from './svg/bag-plus';
 import { BagXFill } from './svg/bag-x-fill';
 import { BagX } from './svg/bag-x';
 import { Bag } from './svg/bag';
+import { BandaidFill } from './svg/bandaid-fill';
+import { Bandaid } from './svg/bandaid';
+import { Bank } from './svg/bank';
+import { Bank2 } from './svg/bank2';
 import { BarChartFill } from './svg/bar-chart-fill';
 import { BarChartLineFill } from './svg/bar-chart-line-fill';
 import { BarChartLine } from './svg/bar-chart-line';
@@ -134,7 +141,10 @@ import { BatteryCharging } from './svg/battery-charging';
 import { BatteryFull } from './svg/battery-full';
 import { BatteryHalf } from './svg/battery-half';
 import { Battery } from './svg/battery';
+import { Behance } from './svg/behance';
 import { BellFill } from './svg/bell-fill';
+import { BellSlashFill } from './svg/bell-slash-fill';
+import { BellSlash } from './svg/bell-slash';
 import { Bell } from './svg/bell';
 import { Bezier } from './svg/bezier';
 import { Bezier2 } from './svg/bezier2';
@@ -143,6 +153,8 @@ import { BinocularsFill } from './svg/binoculars-fill';
 import { Binoculars } from './svg/binoculars';
 import { BlockquoteLeft } from './svg/blockquote-left';
 import { BlockquoteRight } from './svg/blockquote-right';
+import { Bluetooth } from './svg/bluetooth';
+import { BodyText } from './svg/body-text';
 import { BookFill } from './svg/book-fill';
 import { BookHalf } from './svg/book-half';
 import { Book } from './svg/book';
@@ -163,6 +175,8 @@ import { Bookmark } from './svg/bookmark';
 import { BookmarksFill } from './svg/bookmarks-fill';
 import { Bookmarks } from './svg/bookmarks';
 import { Bookshelf } from './svg/bookshelf';
+import { BoomboxFill } from './svg/boombox-fill';
+import { Boombox } from './svg/boombox';
 import { BootstrapFill } from './svg/bootstrap-fill';
 import { BootstrapReboot } from './svg/bootstrap-reboot';
 import { Bootstrap } from './svg/bootstrap';
@@ -198,6 +212,7 @@ import { BoxArrowUpRight } from './svg/box-arrow-up-right';
 import { BoxArrowUp } from './svg/box-arrow-up';
 import { BoxSeam } from './svg/box-seam';
 import { Box } from './svg/box';
+import { Boxes } from './svg/boxes';
 import { Braces } from './svg/braces';
 import { Bricks } from './svg/bricks';
 import { BriefcaseFill } from './svg/briefcase-fill';
@@ -323,6 +338,7 @@ import { Cart } from './svg/cart';
 import { Cart2 } from './svg/cart2';
 import { Cart3 } from './svg/cart3';
 import { Cart4 } from './svg/cart4';
+import { CashCoin } from './svg/cash-coin';
 import { CashStack } from './svg/cash-stack';
 import { Cash } from './svg/cash';
 import { Cast } from './svg/cast';
@@ -361,6 +377,7 @@ import { Chat } from './svg/chat';
 import { CheckAll } from './svg/check-all';
 import { CheckCircleFill } from './svg/check-circle-fill';
 import { CheckCircle } from './svg/check-circle';
+import { CheckLg } from './svg/check-lg';
 import { CheckSquareFill } from './svg/check-square-fill';
 import { CheckSquare } from './svg/check-square';
 import { Check } from './svg/check';
@@ -418,10 +435,10 @@ import { CloudFog2Fill } from './svg/cloud-fog2-fill';
 import { CloudFog2 } from './svg/cloud-fog2';
 import { CloudHailFill } from './svg/cloud-hail-fill';
 import { CloudHail } from './svg/cloud-hail';
-import { CloudHaze1 } from './svg/cloud-haze-1';
 import { CloudHazeFill } from './svg/cloud-haze-fill';
 import { CloudHaze } from './svg/cloud-haze';
 import { CloudHaze2Fill } from './svg/cloud-haze2-fill';
+import { CloudHaze2 } from './svg/cloud-haze2';
 import { CloudLightningFill } from './svg/cloud-lightning-fill';
 import { CloudLightningRainFill } from './svg/cloud-lightning-rain-fill';
 import { CloudLightningRain } from './svg/cloud-lightning-rain';
@@ -454,6 +471,7 @@ import { Cloudy } from './svg/cloudy';
 import { CodeSlash } from './svg/code-slash';
 import { CodeSquare } from './svg/code-square';
 import { Code } from './svg/code';
+import { Coin } from './svg/coin';
 import { CollectionFill } from './svg/collection-fill';
 import { CollectionPlayFill } from './svg/collection-play-fill';
 import { CollectionPlay } from './svg/collection-play';
@@ -478,16 +496,27 @@ import { Crop } from './svg/crop';
 import { CupFill } from './svg/cup-fill';
 import { CupStraw } from './svg/cup-straw';
 import { Cup } from './svg/cup';
+import { CurrencyBitcoin } from './svg/currency-bitcoin';
+import { CurrencyDollar } from './svg/currency-dollar';
+import { CurrencyEuro } from './svg/currency-euro';
+import { CurrencyExchange } from './svg/currency-exchange';
+import { CurrencyPound } from './svg/currency-pound';
+import { CurrencyYen } from './svg/currency-yen';
 import { CursorFill } from './svg/cursor-fill';
 import { CursorText } from './svg/cursor-text';
 import { Cursor } from './svg/cursor';
 import { DashCircleDotted } from './svg/dash-circle-dotted';
 import { DashCircleFill } from './svg/dash-circle-fill';
 import { DashCircle } from './svg/dash-circle';
+import { DashLg } from './svg/dash-lg';
 import { DashSquareDotted } from './svg/dash-square-dotted';
 import { DashSquareFill } from './svg/dash-square-fill';
 import { DashSquare } from './svg/dash-square';
 import { Dash } from './svg/dash';
+import { DeviceHddFill } from './svg/device-hdd-fill';
+import { DeviceHdd } from './svg/device-hdd';
+import { DeviceSsdFill } from './svg/device-ssd-fill';
+import { DeviceSsd } from './svg/device-ssd';
 import { Diagram2Fill } from './svg/diagram-2-fill';
 import { Diagram2 } from './svg/diagram-2';
 import { Diagram3Fill } from './svg/diagram-3-fill';
@@ -512,6 +541,8 @@ import { Disc } from './svg/disc';
 import { Discord } from './svg/discord';
 import { DisplayFill } from './svg/display-fill';
 import { Display } from './svg/display';
+import { DisplayportFill } from './svg/displayport-fill';
+import { Displayport } from './svg/displayport';
 import { DistributeHorizontal } from './svg/distribute-horizontal';
 import { DistributeVertical } from './svg/distribute-vertical';
 import { DoorClosedFill } from './svg/door-closed-fill';
@@ -520,12 +551,21 @@ import { DoorOpenFill } from './svg/door-open-fill';
 import { DoorOpen } from './svg/door-open';
 import { Dot } from './svg/dot';
 import { Download } from './svg/download';
+import { DpadFill } from './svg/dpad-fill';
+import { Dpad } from './svg/dpad';
+import { Dribbble } from './svg/dribbble';
 import { DropletFill } from './svg/droplet-fill';
 import { DropletHalf } from './svg/droplet-half';
 import { Droplet } from './svg/droplet';
+import { EarFill } from './svg/ear-fill';
+import { Ear } from './svg/ear';
 import { Earbuds } from './svg/earbuds';
 import { EaselFill } from './svg/easel-fill';
 import { Easel } from './svg/easel';
+import { Easel2Fill } from './svg/easel2-fill';
+import { Easel2 } from './svg/easel2';
+import { Easel3Fill } from './svg/easel3-fill';
+import { Easel3 } from './svg/easel3';
 import { EggFill } from './svg/egg-fill';
 import { EggFried } from './svg/egg-fried';
 import { Egg } from './svg/egg';
@@ -553,16 +593,30 @@ import { EmojiSunglassesFill } from './svg/emoji-sunglasses-fill';
 import { EmojiSunglasses } from './svg/emoji-sunglasses';
 import { EmojiWinkFill } from './svg/emoji-wink-fill';
 import { EmojiWink } from './svg/emoji-wink';
+import { EnvelopeCheckFill } from './svg/envelope-check-fill';
+import { EnvelopeCheck } from './svg/envelope-check';
+import { EnvelopeDashFill } from './svg/envelope-dash-fill';
+import { EnvelopeDash } from './svg/envelope-dash';
+import { EnvelopeExclamationFill } from './svg/envelope-exclamation-fill';
+import { EnvelopeExclamation } from './svg/envelope-exclamation';
 import { EnvelopeFill } from './svg/envelope-fill';
 import { EnvelopeOpenFill } from './svg/envelope-open-fill';
 import { EnvelopeOpen } from './svg/envelope-open';
+import { EnvelopePlusFill } from './svg/envelope-plus-fill';
+import { EnvelopePlus } from './svg/envelope-plus';
+import { EnvelopeSlashFill } from './svg/envelope-slash-fill';
+import { EnvelopeSlash } from './svg/envelope-slash';
+import { EnvelopeXFill } from './svg/envelope-x-fill';
+import { EnvelopeX } from './svg/envelope-x';
 import { Envelope } from './svg/envelope';
 import { EraserFill } from './svg/eraser-fill';
 import { Eraser } from './svg/eraser';
+import { Ethernet } from './svg/ethernet';
 import { ExclamationCircleFill } from './svg/exclamation-circle-fill';
 import { ExclamationCircle } from './svg/exclamation-circle';
 import { ExclamationDiamondFill } from './svg/exclamation-diamond-fill';
 import { ExclamationDiamond } from './svg/exclamation-diamond';
+import { ExclamationLg } from './svg/exclamation-lg';
 import { ExclamationOctagonFill } from './svg/exclamation-octagon-fill';
 import { ExclamationOctagon } from './svg/exclamation-octagon';
 import { ExclamationSquareFill } from './svg/exclamation-square-fill';
@@ -571,6 +625,8 @@ import { ExclamationTriangleFill } from './svg/exclamation-triangle-fill';
 import { ExclamationTriangle } from './svg/exclamation-triangle';
 import { Exclamation } from './svg/exclamation';
 import { Exclude } from './svg/exclude';
+import { ExplicitFill } from './svg/explicit-fill';
+import { Explicit } from './svg/explicit';
 import { EyeFill } from './svg/eye-fill';
 import { EyeSlashFill } from './svg/eye-slash-fill';
 import { EyeSlash } from './svg/eye-slash';
@@ -578,6 +634,7 @@ import { Eye } from './svg/eye';
 import { Eyedropper } from './svg/eyedropper';
 import { Eyeglasses } from './svg/eyeglasses';
 import { Facebook } from './svg/facebook';
+import { Fan } from './svg/fan';
 import { FileArrowDownFill } from './svg/file-arrow-down-fill';
 import { FileArrowDown } from './svg/file-arrow-down';
 import { FileArrowUpFill } from './svg/file-arrow-up-fill';
@@ -629,6 +686,8 @@ import { FileEarmarkMinusFill } from './svg/file-earmark-minus-fill';
 import { FileEarmarkMinus } from './svg/file-earmark-minus';
 import { FileEarmarkMusicFill } from './svg/file-earmark-music-fill';
 import { FileEarmarkMusic } from './svg/file-earmark-music';
+import { FileEarmarkPdfFill } from './svg/file-earmark-pdf-fill';
+import { FileEarmarkPdf } from './svg/file-earmark-pdf';
 import { FileEarmarkPersonFill } from './svg/file-earmark-person-fill';
 import { FileEarmarkPerson } from './svg/file-earmark-person';
 import { FileEarmarkPlayFill } from './svg/file-earmark-play-fill';
@@ -675,6 +734,8 @@ import { FileMinusFill } from './svg/file-minus-fill';
 import { FileMinus } from './svg/file-minus';
 import { FileMusicFill } from './svg/file-music-fill';
 import { FileMusic } from './svg/file-music';
+import { FilePdfFill } from './svg/file-pdf-fill';
+import { FilePdf } from './svg/file-pdf';
 import { FilePersonFill } from './svg/file-person-fill';
 import { FilePerson } from './svg/file-person';
 import { FilePlayFill } from './svg/file-play-fill';
@@ -712,6 +773,7 @@ import { FilterRight } from './svg/filter-right';
 import { FilterSquareFill } from './svg/filter-square-fill';
 import { FilterSquare } from './svg/filter-square';
 import { Filter } from './svg/filter';
+import { Fingerprint } from './svg/fingerprint';
 import { FlagFill } from './svg/flag-fill';
 import { Flag } from './svg/flag';
 import { Flower1 } from './svg/flower1';
@@ -740,17 +802,25 @@ import { GearWideConnected } from './svg/gear-wide-connected';
 import { GearWide } from './svg/gear-wide';
 import { Gear } from './svg/gear';
 import { Gem } from './svg/gem';
+import { GenderAmbiguous } from './svg/gender-ambiguous';
+import { GenderFemale } from './svg/gender-female';
+import { GenderMale } from './svg/gender-male';
+import { GenderTrans } from './svg/gender-trans';
 import { GeoAltFill } from './svg/geo-alt-fill';
 import { GeoAlt } from './svg/geo-alt';
 import { GeoFill } from './svg/geo-fill';
 import { Geo } from './svg/geo';
 import { GiftFill } from './svg/gift-fill';
 import { Gift } from './svg/gift';
+import { Git } from './svg/git';
 import { Github } from './svg/github';
 import { Globe } from './svg/globe';
 import { Globe2 } from './svg/globe2';
 import { Google } from './svg/google';
+import { GpuCard } from './svg/gpu-card';
+import { GraphDownArrow } from './svg/graph-down-arrow';
 import { GraphDown } from './svg/graph-down';
+import { GraphUpArrow } from './svg/graph-up-arrow';
 import { GraphUp } from './svg/graph-up';
 import { Grid1x2Fill } from './svg/grid-1x2-fill';
 import { Grid1x2 } from './svg/grid-1x2';
@@ -784,7 +854,10 @@ import { HddRack } from './svg/hdd-rack';
 import { HddStackFill } from './svg/hdd-stack-fill';
 import { HddStack } from './svg/hdd-stack';
 import { Hdd } from './svg/hdd';
+import { HdmiFill } from './svg/hdmi-fill';
+import { Hdmi } from './svg/hdmi';
 import { Headphones } from './svg/headphones';
+import { HeadsetVr } from './svg/headset-vr';
 import { Headset } from './svg/headset';
 import { HeartFill } from './svg/heart-fill';
 import { HeartHalf } from './svg/heart-half';
@@ -805,6 +878,7 @@ import { HouseFill } from './svg/house-fill';
 import { House } from './svg/house';
 import { Hr } from './svg/hr';
 import { Hurricane } from './svg/hurricane';
+import { Hypnotize } from './svg/hypnotize';
 import { ImageAlt } from './svg/image-alt';
 import { ImageFill } from './svg/image-fill';
 import { Image } from './svg/image';
@@ -813,8 +887,10 @@ import { InboxFill } from './svg/inbox-fill';
 import { Inbox } from './svg/inbox';
 import { InboxesFill } from './svg/inboxes-fill';
 import { Inboxes } from './svg/inboxes';
+import { _Infinity } from './svg/infinity';
 import { InfoCircleFill } from './svg/info-circle-fill';
 import { InfoCircle } from './svg/info-circle';
+import { InfoLg } from './svg/info-lg';
 import { InfoSquareFill } from './svg/info-square-fill';
 import { InfoSquare } from './svg/info-square';
 import { Info } from './svg/info';
@@ -877,10 +953,13 @@ import { LightningChargeFill } from './svg/lightning-charge-fill';
 import { LightningCharge } from './svg/lightning-charge';
 import { LightningFill } from './svg/lightning-fill';
 import { Lightning } from './svg/lightning';
+import { Line } from './svg/line';
 import { Link45deg } from './svg/link-45deg';
 import { Link } from './svg/link';
 import { Linkedin } from './svg/linkedin';
 import { ListCheck } from './svg/list-check';
+import { ListColumnsReverse } from './svg/list-columns-reverse';
+import { ListColumns } from './svg/list-columns';
 import { ListNested } from './svg/list-nested';
 import { ListOl } from './svg/list-ol';
 import { ListStars } from './svg/list-stars';
@@ -889,6 +968,7 @@ import { ListUl } from './svg/list-ul';
 import { List } from './svg/list';
 import { LockFill } from './svg/lock-fill';
 import { Lock } from './svg/lock';
+import { Magic } from './svg/magic';
 import { Mailbox } from './svg/mailbox';
 import { Mailbox2 } from './svg/mailbox2';
 import { MapFill } from './svg/map-fill';
@@ -896,8 +976,11 @@ import { Map } from './svg/map';
 import { MarkdownFill } from './svg/markdown-fill';
 import { Markdown } from './svg/markdown';
 import { Mask } from './svg/mask';
+import { Mastodon } from './svg/mastodon';
+import { Medium } from './svg/medium';
 import { MegaphoneFill } from './svg/megaphone-fill';
 import { Megaphone } from './svg/megaphone';
+import { Memory } from './svg/memory';
 import { MenuAppFill } from './svg/menu-app-fill';
 import { MenuApp } from './svg/menu-app';
 import { MenuButtonFill } from './svg/menu-button-fill';
@@ -906,17 +989,26 @@ import { MenuButtonWide } from './svg/menu-button-wide';
 import { MenuButton } from './svg/menu-button';
 import { MenuDown } from './svg/menu-down';
 import { MenuUp } from './svg/menu-up';
+import { Messenger } from './svg/messenger';
+import { Meta } from './svg/meta';
 import { MicFill } from './svg/mic-fill';
 import { MicMuteFill } from './svg/mic-mute-fill';
 import { MicMute } from './svg/mic-mute';
 import { Mic } from './svg/mic';
+import { Microsoft } from './svg/microsoft';
 import { MinecartLoaded } from './svg/minecart-loaded';
 import { Minecart } from './svg/minecart';
+import { ModemFill } from './svg/modem-fill';
+import { Modem } from './svg/modem';
 import { Moisture } from './svg/moisture';
 import { MoonFill } from './svg/moon-fill';
 import { MoonStarsFill } from './svg/moon-stars-fill';
 import { MoonStars } from './svg/moon-stars';
 import { Moon } from './svg/moon';
+import { MortarboardFill } from './svg/mortarboard-fill';
+import { Mortarboard } from './svg/mortarboard';
+import { MotherboardFill } from './svg/motherboard-fill';
+import { Motherboard } from './svg/motherboard';
 import { MouseFill } from './svg/mouse-fill';
 import { Mouse } from './svg/mouse';
 import { Mouse2Fill } from './svg/mouse2-fill';
@@ -929,6 +1021,7 @@ import { MusicNote } from './svg/music-note';
 import { MusicPlayerFill } from './svg/music-player-fill';
 import { MusicPlayer } from './svg/music-player';
 import { Newspaper } from './svg/newspaper';
+import { NintendoSwitch } from './svg/nintendo-switch';
 import { NodeMinusFill } from './svg/node-minus-fill';
 import { NodeMinus } from './svg/node-minus';
 import { NodePlusFill } from './svg/node-plus-fill';
@@ -938,6 +1031,8 @@ import { Nut } from './svg/nut';
 import { OctagonFill } from './svg/octagon-fill';
 import { OctagonHalf } from './svg/octagon-half';
 import { Octagon } from './svg/octagon';
+import { OpticalAudioFill } from './svg/optical-audio-fill';
+import { OpticalAudio } from './svg/optical-audio';
 import { Option } from './svg/option';
 import { Outlet } from './svg/outlet';
 import { PaintBucket } from './svg/paint-bucket';
@@ -962,6 +1057,12 @@ import { PauseCircleFill } from './svg/pause-circle-fill';
 import { PauseCircle } from './svg/pause-circle';
 import { PauseFill } from './svg/pause-fill';
 import { Pause } from './svg/pause';
+import { Paypal } from './svg/paypal';
+import { PcDisplayHorizontal } from './svg/pc-display-horizontal';
+import { PcDisplay } from './svg/pc-display';
+import { PcHorizontal } from './svg/pc-horizontal';
+import { Pc } from './svg/pc';
+import { PciCard } from './svg/pci-card';
 import { PeaceFill } from './svg/peace-fill';
 import { Peace } from './svg/peace';
 import { PenFill } from './svg/pen-fill';
@@ -987,7 +1088,12 @@ import { PersonFill } from './svg/person-fill';
 import { PersonLinesFill } from './svg/person-lines-fill';
 import { PersonPlusFill } from './svg/person-plus-fill';
 import { PersonPlus } from './svg/person-plus';
+import { PersonRolodex } from './svg/person-rolodex';
 import { PersonSquare } from './svg/person-square';
+import { PersonVideo } from './svg/person-video';
+import { PersonVideo2 } from './svg/person-video2';
+import { PersonVideo3 } from './svg/person-video3';
+import { PersonWorkspace } from './svg/person-workspace';
 import { PersonXFill } from './svg/person-x-fill';
 import { PersonX } from './svg/person-x';
 import { Person } from './svg/person';
@@ -999,10 +1105,15 @@ import { PhoneVibrate } from './svg/phone-vibrate';
 import { Phone } from './svg/phone';
 import { PieChartFill } from './svg/pie-chart-fill';
 import { PieChart } from './svg/pie-chart';
+import { PiggyBankFill } from './svg/piggy-bank-fill';
+import { PiggyBank } from './svg/piggy-bank';
 import { PinAngleFill } from './svg/pin-angle-fill';
 import { PinAngle } from './svg/pin-angle';
 import { PinFill } from './svg/pin-fill';
+import { PinMapFill } from './svg/pin-map-fill';
+import { PinMap } from './svg/pin-map';
 import { Pin } from './svg/pin';
+import { Pinterest } from './svg/pinterest';
 import { PipFill } from './svg/pip-fill';
 import { Pip } from './svg/pip';
 import { PlayBtnFill } from './svg/play-btn-fill';
@@ -1011,11 +1122,14 @@ import { PlayCircleFill } from './svg/play-circle-fill';
 import { PlayCircle } from './svg/play-circle';
 import { PlayFill } from './svg/play-fill';
 import { Play } from './svg/play';
+import { Playstation } from './svg/playstation';
 import { PlugFill } from './svg/plug-fill';
 import { Plug } from './svg/plug';
 import { PlusCircleDotted } from './svg/plus-circle-dotted';
 import { PlusCircleFill } from './svg/plus-circle-fill';
 import { PlusCircle } from './svg/plus-circle';
+import { PlusLg } from './svg/plus-lg';
+import { PlusSlashMinus } from './svg/plus-slash-minus';
 import { PlusSquareDotted } from './svg/plus-square-dotted';
 import { PlusSquareFill } from './svg/plus-square-fill';
 import { PlusSquare } from './svg/plus-square';
@@ -1023,17 +1137,25 @@ import { Plus } from './svg/plus';
 import { Power } from './svg/power';
 import { PrinterFill } from './svg/printer-fill';
 import { Printer } from './svg/printer';
+import { ProjectorFill } from './svg/projector-fill';
+import { Projector } from './svg/projector';
 import { PuzzleFill } from './svg/puzzle-fill';
 import { Puzzle } from './svg/puzzle';
+import { QrCodeScan } from './svg/qr-code-scan';
+import { QrCode } from './svg/qr-code';
 import { QuestionCircleFill } from './svg/question-circle-fill';
 import { QuestionCircle } from './svg/question-circle';
 import { QuestionDiamondFill } from './svg/question-diamond-fill';
 import { QuestionDiamond } from './svg/question-diamond';
+import { QuestionLg } from './svg/question-lg';
 import { QuestionOctagonFill } from './svg/question-octagon-fill';
 import { QuestionOctagon } from './svg/question-octagon';
 import { QuestionSquareFill } from './svg/question-square-fill';
 import { QuestionSquare } from './svg/question-square';
 import { Question } from './svg/question';
+import { Quora } from './svg/quora';
+import { Quote } from './svg/quote';
+import { Radioactive } from './svg/radioactive';
 import { Rainbow } from './svg/rainbow';
 import { ReceiptCutoff } from './svg/receipt-cutoff';
 import { Receipt } from './svg/receipt';
@@ -1050,21 +1172,46 @@ import { RecordFill } from './svg/record-fill';
 import { Record } from './svg/record';
 import { Record2Fill } from './svg/record2-fill';
 import { Record2 } from './svg/record2';
+import { Recycle } from './svg/recycle';
+import { Reddit } from './svg/reddit';
 import { ReplyAllFill } from './svg/reply-all-fill';
 import { ReplyAll } from './svg/reply-all';
 import { ReplyFill } from './svg/reply-fill';
 import { Reply } from './svg/reply';
+import { Robot } from './svg/robot';
+import { RouterFill } from './svg/router-fill';
+import { Router } from './svg/router';
 import { RssFill } from './svg/rss-fill';
 import { Rss } from './svg/rss';
 import { Rulers } from './svg/rulers';
+import { SafeFill } from './svg/safe-fill';
+import { Safe } from './svg/safe';
+import { Safe2Fill } from './svg/safe2-fill';
+import { Safe2 } from './svg/safe2';
 import { SaveFill } from './svg/save-fill';
 import { Save } from './svg/save';
 import { Save2Fill } from './svg/save2-fill';
 import { Save2 } from './svg/save2';
 import { Scissors } from './svg/scissors';
 import { Screwdriver } from './svg/screwdriver';
+import { SdCardFill } from './svg/sd-card-fill';
+import { SdCard } from './svg/sd-card';
 import { Search } from './svg/search';
 import { SegmentedNav } from './svg/segmented-nav';
+import { SendCheckFill } from './svg/send-check-fill';
+import { SendCheck } from './svg/send-check';
+import { SendDashFill } from './svg/send-dash-fill';
+import { SendDash } from './svg/send-dash';
+import { SendExclamationFill } from './svg/send-exclamation-fill';
+import { SendExclamation } from './svg/send-exclamation';
+import { SendFill } from './svg/send-fill';
+import { SendPlusFill } from './svg/send-plus-fill';
+import { SendPlus } from './svg/send-plus';
+import { SendSlashFill } from './svg/send-slash-fill';
+import { SendSlash } from './svg/send-slash';
+import { SendXFill } from './svg/send-x-fill';
+import { SendX } from './svg/send-x';
+import { Send } from './svg/send';
 import { Server } from './svg/server';
 import { ShareFill } from './svg/share-fill';
 import { Share } from './svg/share';
@@ -1090,6 +1237,7 @@ import { Shift } from './svg/shift';
 import { ShopWindow } from './svg/shop-window';
 import { Shop } from './svg/shop';
 import { Shuffle } from './svg/shuffle';
+import { Signal } from './svg/signal';
 import { Signpost2Fill } from './svg/signpost-2-fill';
 import { Signpost2 } from './svg/signpost-2';
 import { SignpostFill } from './svg/signpost-fill';
@@ -1122,14 +1270,17 @@ import { SkipStartCircleFill } from './svg/skip-start-circle-fill';
 import { SkipStartCircle } from './svg/skip-start-circle';
 import { SkipStartFill } from './svg/skip-start-fill';
 import { SkipStart } from './svg/skip-start';
+import { Skype } from './svg/skype';
 import { Slack } from './svg/slack';
 import { SlashCircleFill } from './svg/slash-circle-fill';
 import { SlashCircle } from './svg/slash-circle';
+import { SlashLg } from './svg/slash-lg';
 import { SlashSquareFill } from './svg/slash-square-fill';
 import { SlashSquare } from './svg/slash-square';
 import { Slash } from './svg/slash';
 import { Sliders } from './svg/sliders';
 import { Smartwatch } from './svg/smartwatch';
+import { Snapchat } from './svg/snapchat';
 import { Snow } from './svg/snow';
 import { Snow2 } from './svg/snow2';
 import { Snow3 } from './svg/snow3';
@@ -1151,14 +1302,17 @@ import { Speaker } from './svg/speaker';
 import { Speedometer } from './svg/speedometer';
 import { Speedometer2 } from './svg/speedometer2';
 import { Spellcheck } from './svg/spellcheck';
+import { Spotify } from './svg/spotify';
 import { SquareFill } from './svg/square-fill';
 import { SquareHalf } from './svg/square-half';
 import { Square } from './svg/square';
+import { StackOverflow } from './svg/stack-overflow';
 import { Stack } from './svg/stack';
 import { StarFill } from './svg/star-fill';
 import { StarHalf } from './svg/star-half';
 import { Star } from './svg/star';
 import { Stars } from './svg/stars';
+import { Steam } from './svg/steam';
 import { StickiesFill } from './svg/stickies-fill';
 import { Stickies } from './svg/stickies';
 import { StickyFill } from './svg/sticky-fill';
@@ -1173,6 +1327,7 @@ import { StoplightsFill } from './svg/stoplights-fill';
 import { Stoplights } from './svg/stoplights';
 import { StopwatchFill } from './svg/stopwatch-fill';
 import { Stopwatch } from './svg/stopwatch';
+import { Strava } from './svg/strava';
 import { Subtract } from './svg/subtract';
 import { SuitClubFill } from './svg/suit-club-fill';
 import { SuitClub } from './svg/suit-club';
@@ -1215,7 +1370,11 @@ import { TelephonePlus } from './svg/telephone-plus';
 import { TelephoneXFill } from './svg/telephone-x-fill';
 import { TelephoneX } from './svg/telephone-x';
 import { Telephone } from './svg/telephone';
+import { TerminalDash } from './svg/terminal-dash';
 import { TerminalFill } from './svg/terminal-fill';
+import { TerminalPlus } from './svg/terminal-plus';
+import { TerminalSplit } from './svg/terminal-split';
+import { TerminalX } from './svg/terminal-x';
 import { Terminal } from './svg/terminal';
 import { TextCenter } from './svg/text-center';
 import { TextIndentLeft } from './svg/text-indent-left';
@@ -1234,6 +1393,15 @@ import { ThermometerSun } from './svg/thermometer-sun';
 import { Thermometer } from './svg/thermometer';
 import { ThreeDotsVertical } from './svg/three-dots-vertical';
 import { ThreeDots } from './svg/three-dots';
+import { ThunderboltFill } from './svg/thunderbolt-fill';
+import { Thunderbolt } from './svg/thunderbolt';
+import { TicketDetailedFill } from './svg/ticket-detailed-fill';
+import { TicketDetailed } from './svg/ticket-detailed';
+import { TicketFill } from './svg/ticket-fill';
+import { TicketPerforatedFill } from './svg/ticket-perforated-fill';
+import { TicketPerforated } from './svg/ticket-perforated';
+import { Ticket } from './svg/ticket';
+import { Tiktok } from './svg/tiktok';
 import { ToggleOff } from './svg/toggle-off';
 import { ToggleOn } from './svg/toggle-on';
 import { Toggle2Off } from './svg/toggle2-off';
@@ -1242,6 +1410,7 @@ import { Toggles } from './svg/toggles';
 import { Toggles2 } from './svg/toggles2';
 import { Tools } from './svg/tools';
 import { Tornado } from './svg/tornado';
+import { Translate } from './svg/translate';
 import { TrashFill } from './svg/trash-fill';
 import { Trash } from './svg/trash';
 import { Trash2Fill } from './svg/trash2-fill';
@@ -1281,9 +1450,23 @@ import { Unlock } from './svg/unlock';
 import { UpcScan } from './svg/upc-scan';
 import { Upc } from './svg/upc';
 import { Upload } from './svg/upload';
+import { UsbCFill } from './svg/usb-c-fill';
+import { UsbC } from './svg/usb-c';
+import { UsbDriveFill } from './svg/usb-drive-fill';
+import { UsbDrive } from './svg/usb-drive';
+import { UsbFill } from './svg/usb-fill';
+import { UsbMicroFill } from './svg/usb-micro-fill';
+import { UsbMicro } from './svg/usb-micro';
+import { UsbMiniFill } from './svg/usb-mini-fill';
+import { UsbMini } from './svg/usb-mini';
+import { UsbPlugFill } from './svg/usb-plug-fill';
+import { UsbPlug } from './svg/usb-plug';
+import { UsbSymbol } from './svg/usb-symbol';
+import { Usb } from './svg/usb';
 import { VectorPen } from './svg/vector-pen';
 import { ViewList } from './svg/view-list';
 import { ViewStacked } from './svg/view-stacked';
+import { Vimeo } from './svg/vimeo';
 import { VinylFill } from './svg/vinyl-fill';
 import { Vinyl } from './svg/vinyl';
 import { Voicemail } from './svg/voicemail';
@@ -1301,30 +1484,46 @@ import { Wallet } from './svg/wallet';
 import { Wallet2 } from './svg/wallet2';
 import { Watch } from './svg/watch';
 import { Water } from './svg/water';
+import { WebcamFill } from './svg/webcam-fill';
+import { Webcam } from './svg/webcam';
 import { Whatsapp } from './svg/whatsapp';
 import { Wifi1 } from './svg/wifi-1';
 import { Wifi2 } from './svg/wifi-2';
 import { WifiOff } from './svg/wifi-off';
 import { Wifi } from './svg/wifi';
 import { Wind } from './svg/wind';
+import { WindowDash } from './svg/window-dash';
+import { WindowDesktop } from './svg/window-desktop';
 import { WindowDock } from './svg/window-dock';
+import { WindowFullscreen } from './svg/window-fullscreen';
+import { WindowPlus } from './svg/window-plus';
 import { WindowSidebar } from './svg/window-sidebar';
+import { WindowSplit } from './svg/window-split';
+import { WindowStack } from './svg/window-stack';
+import { WindowX } from './svg/window-x';
 import { Window } from './svg/window';
+import { Windows } from './svg/windows';
+import { Wordpress } from './svg/wordpress';
 import { Wrench } from './svg/wrench';
 import { XCircleFill } from './svg/x-circle-fill';
 import { XCircle } from './svg/x-circle';
 import { XDiamondFill } from './svg/x-diamond-fill';
 import { XDiamond } from './svg/x-diamond';
+import { XLg } from './svg/x-lg';
 import { XOctagonFill } from './svg/x-octagon-fill';
 import { XOctagon } from './svg/x-octagon';
 import { XSquareFill } from './svg/x-square-fill';
 import { XSquare } from './svg/x-square';
 import { X } from './svg/x';
+import { Xbox } from './svg/xbox';
+import { YinYang } from './svg/yin-yang';
 import { Youtube } from './svg/youtube';
 import { ZoomIn } from './svg/zoom-in';
 import { ZoomOut } from './svg/zoom-out';
 
 export const allIcons = {
+  _123,
+  Activity,
   AlarmFill,
   Alarm,
   AlignBottom,
@@ -1336,6 +1535,7 @@ export const allIcons = {
   Alt,
   AppIndicator,
   App,
+  Apple,
   ArchiveFill,
   Archive,
   Arrow90degDown,
@@ -1446,6 +1646,10 @@ export const allIcons = {
   BagXFill,
   BagX,
   Bag,
+  BandaidFill,
+  Bandaid,
+  Bank,
+  Bank2,
   BarChartFill,
   BarChartLineFill,
   BarChartLine,
@@ -1461,7 +1665,10 @@ export const allIcons = {
   BatteryFull,
   BatteryHalf,
   Battery,
+  Behance,
   BellFill,
+  BellSlashFill,
+  BellSlash,
   Bell,
   Bezier,
   Bezier2,
@@ -1470,6 +1677,8 @@ export const allIcons = {
   Binoculars,
   BlockquoteLeft,
   BlockquoteRight,
+  Bluetooth,
+  BodyText,
   BookFill,
   BookHalf,
   Book,
@@ -1490,6 +1699,8 @@ export const allIcons = {
   BookmarksFill,
   Bookmarks,
   Bookshelf,
+  BoomboxFill,
+  Boombox,
   BootstrapFill,
   BootstrapReboot,
   Bootstrap,
@@ -1525,6 +1736,7 @@ export const allIcons = {
   BoxArrowUp,
   BoxSeam,
   Box,
+  Boxes,
   Braces,
   Bricks,
   BriefcaseFill,
@@ -1650,6 +1862,7 @@ export const allIcons = {
   Cart2,
   Cart3,
   Cart4,
+  CashCoin,
   CashStack,
   Cash,
   Cast,
@@ -1688,6 +1901,7 @@ export const allIcons = {
   CheckAll,
   CheckCircleFill,
   CheckCircle,
+  CheckLg,
   CheckSquareFill,
   CheckSquare,
   Check,
@@ -1745,10 +1959,10 @@ export const allIcons = {
   CloudFog2,
   CloudHailFill,
   CloudHail,
-  CloudHaze1,
   CloudHazeFill,
   CloudHaze,
   CloudHaze2Fill,
+  CloudHaze2,
   CloudLightningFill,
   CloudLightningRainFill,
   CloudLightningRain,
@@ -1781,6 +1995,7 @@ export const allIcons = {
   CodeSlash,
   CodeSquare,
   Code,
+  Coin,
   CollectionFill,
   CollectionPlayFill,
   CollectionPlay,
@@ -1805,16 +2020,27 @@ export const allIcons = {
   CupFill,
   CupStraw,
   Cup,
+  CurrencyBitcoin,
+  CurrencyDollar,
+  CurrencyEuro,
+  CurrencyExchange,
+  CurrencyPound,
+  CurrencyYen,
   CursorFill,
   CursorText,
   Cursor,
   DashCircleDotted,
   DashCircleFill,
   DashCircle,
+  DashLg,
   DashSquareDotted,
   DashSquareFill,
   DashSquare,
   Dash,
+  DeviceHddFill,
+  DeviceHdd,
+  DeviceSsdFill,
+  DeviceSsd,
   Diagram2Fill,
   Diagram2,
   Diagram3Fill,
@@ -1839,6 +2065,8 @@ export const allIcons = {
   Discord,
   DisplayFill,
   Display,
+  DisplayportFill,
+  Displayport,
   DistributeHorizontal,
   DistributeVertical,
   DoorClosedFill,
@@ -1847,12 +2075,21 @@ export const allIcons = {
   DoorOpen,
   Dot,
   Download,
+  DpadFill,
+  Dpad,
+  Dribbble,
   DropletFill,
   DropletHalf,
   Droplet,
+  EarFill,
+  Ear,
   Earbuds,
   EaselFill,
   Easel,
+  Easel2Fill,
+  Easel2,
+  Easel3Fill,
+  Easel3,
   EggFill,
   EggFried,
   Egg,
@@ -1880,16 +2117,30 @@ export const allIcons = {
   EmojiSunglasses,
   EmojiWinkFill,
   EmojiWink,
+  EnvelopeCheckFill,
+  EnvelopeCheck,
+  EnvelopeDashFill,
+  EnvelopeDash,
+  EnvelopeExclamationFill,
+  EnvelopeExclamation,
   EnvelopeFill,
   EnvelopeOpenFill,
   EnvelopeOpen,
+  EnvelopePlusFill,
+  EnvelopePlus,
+  EnvelopeSlashFill,
+  EnvelopeSlash,
+  EnvelopeXFill,
+  EnvelopeX,
   Envelope,
   EraserFill,
   Eraser,
+  Ethernet,
   ExclamationCircleFill,
   ExclamationCircle,
   ExclamationDiamondFill,
   ExclamationDiamond,
+  ExclamationLg,
   ExclamationOctagonFill,
   ExclamationOctagon,
   ExclamationSquareFill,
@@ -1898,6 +2149,8 @@ export const allIcons = {
   ExclamationTriangle,
   Exclamation,
   Exclude,
+  ExplicitFill,
+  Explicit,
   EyeFill,
   EyeSlashFill,
   EyeSlash,
@@ -1905,6 +2158,7 @@ export const allIcons = {
   Eyedropper,
   Eyeglasses,
   Facebook,
+  Fan,
   FileArrowDownFill,
   FileArrowDown,
   FileArrowUpFill,
@@ -1956,6 +2210,8 @@ export const allIcons = {
   FileEarmarkMinus,
   FileEarmarkMusicFill,
   FileEarmarkMusic,
+  FileEarmarkPdfFill,
+  FileEarmarkPdf,
   FileEarmarkPersonFill,
   FileEarmarkPerson,
   FileEarmarkPlayFill,
@@ -2002,6 +2258,8 @@ export const allIcons = {
   FileMinus,
   FileMusicFill,
   FileMusic,
+  FilePdfFill,
+  FilePdf,
   FilePersonFill,
   FilePerson,
   FilePlayFill,
@@ -2039,6 +2297,7 @@ export const allIcons = {
   FilterSquareFill,
   FilterSquare,
   Filter,
+  Fingerprint,
   FlagFill,
   Flag,
   Flower1,
@@ -2067,17 +2326,25 @@ export const allIcons = {
   GearWide,
   Gear,
   Gem,
+  GenderAmbiguous,
+  GenderFemale,
+  GenderMale,
+  GenderTrans,
   GeoAltFill,
   GeoAlt,
   GeoFill,
   Geo,
   GiftFill,
   Gift,
+  Git,
   Github,
   Globe,
   Globe2,
   Google,
+  GpuCard,
+  GraphDownArrow,
   GraphDown,
+  GraphUpArrow,
   GraphUp,
   Grid1x2Fill,
   Grid1x2,
@@ -2111,7 +2378,10 @@ export const allIcons = {
   HddStackFill,
   HddStack,
   Hdd,
+  HdmiFill,
+  Hdmi,
   Headphones,
+  HeadsetVr,
   Headset,
   HeartFill,
   HeartHalf,
@@ -2132,6 +2402,7 @@ export const allIcons = {
   House,
   Hr,
   Hurricane,
+  Hypnotize,
   ImageAlt,
   ImageFill,
   Image,
@@ -2140,8 +2411,10 @@ export const allIcons = {
   Inbox,
   InboxesFill,
   Inboxes,
+  _Infinity,
   InfoCircleFill,
   InfoCircle,
+  InfoLg,
   InfoSquareFill,
   InfoSquare,
   Info,
@@ -2204,10 +2477,13 @@ export const allIcons = {
   LightningCharge,
   LightningFill,
   Lightning,
+  Line,
   Link45deg,
   Link,
   Linkedin,
   ListCheck,
+  ListColumnsReverse,
+  ListColumns,
   ListNested,
   ListOl,
   ListStars,
@@ -2216,6 +2492,7 @@ export const allIcons = {
   List,
   LockFill,
   Lock,
+  Magic,
   Mailbox,
   Mailbox2,
   MapFill,
@@ -2223,8 +2500,11 @@ export const allIcons = {
   MarkdownFill,
   Markdown,
   Mask,
+  Mastodon,
+  Medium,
   MegaphoneFill,
   Megaphone,
+  Memory,
   MenuAppFill,
   MenuApp,
   MenuButtonFill,
@@ -2233,17 +2513,26 @@ export const allIcons = {
   MenuButton,
   MenuDown,
   MenuUp,
+  Messenger,
+  Meta,
   MicFill,
   MicMuteFill,
   MicMute,
   Mic,
+  Microsoft,
   MinecartLoaded,
   Minecart,
+  ModemFill,
+  Modem,
   Moisture,
   MoonFill,
   MoonStarsFill,
   MoonStars,
   Moon,
+  MortarboardFill,
+  Mortarboard,
+  MotherboardFill,
+  Motherboard,
   MouseFill,
   Mouse,
   Mouse2Fill,
@@ -2256,6 +2545,7 @@ export const allIcons = {
   MusicPlayerFill,
   MusicPlayer,
   Newspaper,
+  NintendoSwitch,
   NodeMinusFill,
   NodeMinus,
   NodePlusFill,
@@ -2265,6 +2555,8 @@ export const allIcons = {
   OctagonFill,
   OctagonHalf,
   Octagon,
+  OpticalAudioFill,
+  OpticalAudio,
   Option,
   Outlet,
   PaintBucket,
@@ -2289,6 +2581,12 @@ export const allIcons = {
   PauseCircle,
   PauseFill,
   Pause,
+  Paypal,
+  PcDisplayHorizontal,
+  PcDisplay,
+  PcHorizontal,
+  Pc,
+  PciCard,
   PeaceFill,
   Peace,
   PenFill,
@@ -2314,7 +2612,12 @@ export const allIcons = {
   PersonLinesFill,
   PersonPlusFill,
   PersonPlus,
+  PersonRolodex,
   PersonSquare,
+  PersonVideo,
+  PersonVideo2,
+  PersonVideo3,
+  PersonWorkspace,
   PersonXFill,
   PersonX,
   Person,
@@ -2326,10 +2629,15 @@ export const allIcons = {
   Phone,
   PieChartFill,
   PieChart,
+  PiggyBankFill,
+  PiggyBank,
   PinAngleFill,
   PinAngle,
   PinFill,
+  PinMapFill,
+  PinMap,
   Pin,
+  Pinterest,
   PipFill,
   Pip,
   PlayBtnFill,
@@ -2338,11 +2646,14 @@ export const allIcons = {
   PlayCircle,
   PlayFill,
   Play,
+  Playstation,
   PlugFill,
   Plug,
   PlusCircleDotted,
   PlusCircleFill,
   PlusCircle,
+  PlusLg,
+  PlusSlashMinus,
   PlusSquareDotted,
   PlusSquareFill,
   PlusSquare,
@@ -2350,17 +2661,25 @@ export const allIcons = {
   Power,
   PrinterFill,
   Printer,
+  ProjectorFill,
+  Projector,
   PuzzleFill,
   Puzzle,
+  QrCodeScan,
+  QrCode,
   QuestionCircleFill,
   QuestionCircle,
   QuestionDiamondFill,
   QuestionDiamond,
+  QuestionLg,
   QuestionOctagonFill,
   QuestionOctagon,
   QuestionSquareFill,
   QuestionSquare,
   Question,
+  Quora,
+  Quote,
+  Radioactive,
   Rainbow,
   ReceiptCutoff,
   Receipt,
@@ -2377,21 +2696,46 @@ export const allIcons = {
   Record,
   Record2Fill,
   Record2,
+  Recycle,
+  Reddit,
   ReplyAllFill,
   ReplyAll,
   ReplyFill,
   Reply,
+  Robot,
+  RouterFill,
+  Router,
   RssFill,
   Rss,
   Rulers,
+  SafeFill,
+  Safe,
+  Safe2Fill,
+  Safe2,
   SaveFill,
   Save,
   Save2Fill,
   Save2,
   Scissors,
   Screwdriver,
+  SdCardFill,
+  SdCard,
   Search,
   SegmentedNav,
+  SendCheckFill,
+  SendCheck,
+  SendDashFill,
+  SendDash,
+  SendExclamationFill,
+  SendExclamation,
+  SendFill,
+  SendPlusFill,
+  SendPlus,
+  SendSlashFill,
+  SendSlash,
+  SendXFill,
+  SendX,
+  Send,
   Server,
   ShareFill,
   Share,
@@ -2417,6 +2761,7 @@ export const allIcons = {
   ShopWindow,
   Shop,
   Shuffle,
+  Signal,
   Signpost2Fill,
   Signpost2,
   SignpostFill,
@@ -2449,14 +2794,17 @@ export const allIcons = {
   SkipStartCircle,
   SkipStartFill,
   SkipStart,
+  Skype,
   Slack,
   SlashCircleFill,
   SlashCircle,
+  SlashLg,
   SlashSquareFill,
   SlashSquare,
   Slash,
   Sliders,
   Smartwatch,
+  Snapchat,
   Snow,
   Snow2,
   Snow3,
@@ -2478,14 +2826,17 @@ export const allIcons = {
   Speedometer,
   Speedometer2,
   Spellcheck,
+  Spotify,
   SquareFill,
   SquareHalf,
   Square,
+  StackOverflow,
   Stack,
   StarFill,
   StarHalf,
   Star,
   Stars,
+  Steam,
   StickiesFill,
   Stickies,
   StickyFill,
@@ -2500,6 +2851,7 @@ export const allIcons = {
   Stoplights,
   StopwatchFill,
   Stopwatch,
+  Strava,
   Subtract,
   SuitClubFill,
   SuitClub,
@@ -2542,7 +2894,11 @@ export const allIcons = {
   TelephoneXFill,
   TelephoneX,
   Telephone,
+  TerminalDash,
   TerminalFill,
+  TerminalPlus,
+  TerminalSplit,
+  TerminalX,
   Terminal,
   TextCenter,
   TextIndentLeft,
@@ -2561,6 +2917,15 @@ export const allIcons = {
   Thermometer,
   ThreeDotsVertical,
   ThreeDots,
+  ThunderboltFill,
+  Thunderbolt,
+  TicketDetailedFill,
+  TicketDetailed,
+  TicketFill,
+  TicketPerforatedFill,
+  TicketPerforated,
+  Ticket,
+  Tiktok,
   ToggleOff,
   ToggleOn,
   Toggle2Off,
@@ -2569,6 +2934,7 @@ export const allIcons = {
   Toggles2,
   Tools,
   Tornado,
+  Translate,
   TrashFill,
   Trash,
   Trash2Fill,
@@ -2608,9 +2974,23 @@ export const allIcons = {
   UpcScan,
   Upc,
   Upload,
+  UsbCFill,
+  UsbC,
+  UsbDriveFill,
+  UsbDrive,
+  UsbFill,
+  UsbMicroFill,
+  UsbMicro,
+  UsbMiniFill,
+  UsbMini,
+  UsbPlugFill,
+  UsbPlug,
+  UsbSymbol,
+  Usb,
   VectorPen,
   ViewList,
   ViewStacked,
+  Vimeo,
   VinylFill,
   Vinyl,
   Voicemail,
@@ -2628,25 +3008,39 @@ export const allIcons = {
   Wallet2,
   Watch,
   Water,
+  WebcamFill,
+  Webcam,
   Whatsapp,
   Wifi1,
   Wifi2,
   WifiOff,
   Wifi,
   Wind,
+  WindowDash,
+  WindowDesktop,
   WindowDock,
+  WindowFullscreen,
+  WindowPlus,
   WindowSidebar,
+  WindowSplit,
+  WindowStack,
+  WindowX,
   Window,
+  Windows,
+  Wordpress,
   Wrench,
   XCircleFill,
   XCircle,
   XDiamondFill,
   XDiamond,
+  XLg,
   XOctagonFill,
   XOctagon,
   XSquareFill,
   XSquare,
   X,
+  Xbox,
+  YinYang,
   Youtube,
   ZoomIn,
   ZoomOut,
