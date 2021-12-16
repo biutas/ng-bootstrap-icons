@@ -29,7 +29,7 @@
   },
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
-    "publish": "npm publish ng-bootstrap-icons"
+    "publish-npm": "npm publish ng-bootstrap-icons"
   },
   "devDependencies": {
     "@angular/compiler": "^13.1.1",
